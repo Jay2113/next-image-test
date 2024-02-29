@@ -1,6 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "standalone",
-};
-
-module.exports = nextConfig;
+module.exports = {
+  images: {
+    formats: ['image/avif', 'image/webp'],
+  },
+}
