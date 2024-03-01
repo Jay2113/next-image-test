@@ -3,9 +3,9 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'main.d28zm4sv1645bb.amplifyapp.com',
+        hostname: 'cms-tc.pbskids.org',
         port: '',
-        pathname: '/_next/*',
+        pathname: '/global/theme-backgrounds/*',
       },
     ],
     formats: ['image/avif', 'image/webp'],
