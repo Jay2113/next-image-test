@@ -9,5 +9,6 @@ module.exports = {
       },
     ],
     formats: ['image/avif', 'image/webp'],
+    deviceSizes : [7680],
   },
 }
