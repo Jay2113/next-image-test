@@ -1,6 +1,6 @@
-const isProd = process.env.NODE_ENV === 'production';
+// const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
-  // images: {
+  images: {
     // remotePatterns: [
     //   {
     //     protocol: 'https',
@@ -9,9 +9,9 @@ module.exports = {
     //     pathname: '/global/theme-backgrounds/*',
     //   },
     // ],
-    // formats: ['image/avif', 'image/webp'],
-    // deviceSizes : [7680],
-  // },
+    formats: ['image/avif'],
+    deviceSizes : [7680],
+  },
   // webpack(config, options) {
   //   if (!options.dev) {
   //       // Remove content hash from JavaScript file names
